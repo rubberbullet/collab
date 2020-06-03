@@ -1,0 +1,7 @@
+parameters:
+#    collab.example.class: Collab\CollabBundle\Example
+
+services:
+#    collab.example:
+#        class: %collab.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

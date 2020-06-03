@@ -1,0 +1,6 @@
+collab:
+    resource: "@CollabBundle/Controller/"
+    type:     annotation
+    prefix:   /
+    
+
