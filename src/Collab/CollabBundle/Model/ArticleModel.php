@@ -23,15 +23,15 @@ class ArticleModel extends AbstractBaseModel
         return $this->description;
     }
 
-    function setId($id): void {
+    function setId($id) {
         $this->id = $id;
     }
 
-    function setName($name): void {
+    function setName($name) {
         $this->name = $name;
     }
 
-    function setDescription($description): void {
+    function setDescription($description) {
         $this->description = $description;
     }
     
