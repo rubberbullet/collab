@@ -64,3 +64,13 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+# JMS Dependency Injection
+jms_di_extra:
+    locations:
+        all_bundles: true
+        directories: ["%kernel.root_dir%/../src/"]
+
+    automatic_controller_injections:
+        properties:
+            controller: "@service_container"

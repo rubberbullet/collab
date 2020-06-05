@@ -4,14 +4,11 @@ namespace Collab\CollabBundle\Dao\Pdo;
 
 use Collab\CollabBundle\Util\ConverterUtil;
 use Collab\CollabBundle\Util\ClassNameConstant;
-use NGBundle\Services\DRStatus\DrStatusManager;
 use Collab\CollabBundle\Dao\Pdo\BaseDaoPdo;
 use PDO;
 use JMS\DiExtraBundle\Annotation as DI;
 
 /**
- * Description of DrStatusDao
- *
  * @DI\Service("article.collab.dao")
  * 
  * @author krishna.acharjee

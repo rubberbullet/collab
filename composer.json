@@ -5,6 +5,12 @@
     "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
         "psr-0": { "": "src/" },
+        "classmap": [
+            "src/",
+            "vendor",
+            "app/AppKernel.php",
+            "app/AppCache.php"
+        ],
         "files": ["app/config/ProjectConfiguration.class.php"]
     },
     "require": {
