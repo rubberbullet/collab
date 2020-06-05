@@ -14,6 +14,8 @@ class HomeController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('CollabBundle:Default:index.html.twig', array('name' => $name));	    
+        $id = 1;
+        $article = $this->get("article.collab.manager")->getArticleById($id);
+        return $this->render('CollabBundle:Default:index.html.twig', array('article' => $article));
     }
 }

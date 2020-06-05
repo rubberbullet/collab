@@ -12,3 +12,5 @@ parameters:
     mailer_password: null
     locale: en
     secret: ThisTokenIsNotSoSecretChangeIt
+    
+    collab.db.tag: collab

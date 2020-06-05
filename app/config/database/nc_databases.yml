@@ -1,0 +1,8 @@
+collab:
+  factory: ncPdoDatabase
+  param:
+    dsn: mysql:host=collab-database.cv6gqkjcnhxv.us-west-2.rds.amazonaws.com;dbname=collab;
+    username: admin
+    password: admin123
+    debug: true
+    reconnect: true
